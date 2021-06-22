@@ -7,11 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahuldhage/webz.git"
+  },
   "author": "",
   "license": "ISC",
-  "engines":{
-   "node": "14.16.1"
+  "engines": {
+    "node": "14.16.1"
+   },
+  "bugs": {
+    "url": "https://github.com/rahuldhage/webz/issues"
   },
+  "homepage": "https://github.com/rahuldhage/webz#readme",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.12.14"
